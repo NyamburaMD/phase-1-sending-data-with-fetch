@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JavaScript Lab</title>
-  </head>
+</head>
 
-  <body>
+<body>
+    <!-- Results container to display user ID or error messages -->
+    <div id="results"></div>
+
+    <!-- You can also add a form to collect user data -->
+    <form id="user-form">
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <button type="submit">Create User</button>
+    </form>
+
     <script src="index.js"></script>
-  </body>
+</body>
 
 </html>
